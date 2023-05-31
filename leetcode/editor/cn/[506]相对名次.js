@@ -46,6 +46,10 @@
  * @param {number[]} score
  * @return {string[]}
  */
+// 思路，构建一个二元数组，第一项为分数，第二项为索引
+// 然后对数组进行分数排序，排序后的索引就是名次
+// 但是前三名需要特殊处理
+
 const findRelativeRanks = function (score) {
   const s = ['Gold Medal', 'Silver Medal', 'Bronze Medal']
 
