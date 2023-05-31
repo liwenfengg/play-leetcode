@@ -6,7 +6,7 @@
   "license": "ISC",
   "main": "index.js",
   "scripts": {
-    "lint": "eslint --ext .js .",
+    "lint": "eslint --ext .js ./leetcode",
     "up": "taze major -I",
     "postinstall": "npx simple-git-hooks"
   },
@@ -19,7 +19,7 @@
     "pre-commit": "pnpm lint-staged"
   },
   "lint-staged": {
-    "*": "eslint --ext .js . --fix"
+    "*": "eslint --ext .js ./leetcode --fix"
   },
   "eslintConfig": {
     "extends": [
