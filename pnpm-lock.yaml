@@ -4,6 +4,9 @@ devDependencies:
   '@antfu/eslint-config':
     specifier: ^0.39.3
     version: 0.39.3(eslint@8.41.0)(typescript@5.0.4)
+  simple-git-hooks:
+    specifier: 2.8.1
+    version: 2.8.1
 
 packages:
 
@@ -2017,6 +2020,12 @@ packages:
       call-bind: 1.0.2
       get-intrinsic: 1.2.1
       object-inspect: 1.12.3
+    dev: true
+
+  /simple-git-hooks@2.8.1:
+    resolution: {integrity: sha512-DYpcVR1AGtSfFUNzlBdHrQGPsOhuuEJ/FkmPOOlFysP60AHd3nsEpkGq/QEOdtUyT1Qhk7w9oLmFoMG+75BDog==}
+    hasBin: true
+    requiresBuild: true
     dev: true
 
   /slash@3.0.0:
