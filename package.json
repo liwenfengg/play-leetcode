@@ -12,6 +12,7 @@
   },
   "devDependencies": {
     "@antfu/eslint-config": "^0.39.3",
+    "lint-staged": "^13.2.2",
     "simple-git-hooks": "2.8.1"
   },
   "simple-git-hooks": {

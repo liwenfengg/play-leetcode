@@ -1,4 +1,4 @@
-//给你一个整数 x ，如果 x 是一个回文整数，返回 true ；否则，返回 false 。
+// 给你一个整数 x ，如果 x 是一个回文整数，返回 true ；否则，返回 false 。
 //
 // 回文数是指正序（从左向右）和倒序（从右向左）读都是一样的整数。
 //
@@ -11,24 +11,24 @@
 // 示例 1：
 //
 //
-//输入：x = 121
-//输出：true
+// 输入：x = 121
+// 输出：true
 //
 //
 // 示例 2：
 //
 //
-//输入：x = -121
-//输出：false
-//解释：从左向右读, 为 -121 。 从右向左读, 为 121- 。因此它不是一个回文数。
+// 输入：x = -121
+// 输出：false
+// 解释：从左向右读, 为 -121 。 从右向左读, 为 121- 。因此它不是一个回文数。
 //
 //
 // 示例 3：
 //
 //
-//输入：x = 10
-//输出：false
-//解释：从右向左读, 为 01 。因此它不是一个回文数。
+// 输入：x = 10
+// 输出：false
+// 解释：从右向左读, 为 01 。因此它不是一个回文数。
 //
 //
 //
@@ -45,25 +45,23 @@
 //
 // Related Topics 数学 👍 2368 👎 0
 
-
-//leetcode submit region begin(Prohibit modification and deletion)
+// leetcode submit region begin(Prohibit modification and deletion)
 /**
  * @param {number} x
  * @return {boolean}
  */
-var isPalindrome = function(x) {
-  if(x < 0 || (x % 10 === 0 && x !== 0)){
-    return  false
-  }
+const isPalindrome = function (x) {
+  if (x < 0 || (x % 10 === 0 && x !== 0))
+    return false
 
   let reversedNumber = 0
-  while (x > reversedNumber){
+  while (x > reversedNumber) {
     reversedNumber = reversedNumber * 10 + (x % 10)
     x = Math.floor(x / 10)
   }
 
-  return  x === reversedNumber || x === Math.floor(reversedNumber / 10)
-};
+  return x === reversedNumber || x === Math.floor(reversedNumber / 10)
+}
 
-console.log(isPalindrome(12345))
-//leetcode submit region end(Prohibit modification and deletion)
+// console.log(isPalindrome(12345))
+// leetcode submit region end(Prohibit modification and deletion)
