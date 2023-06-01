@@ -3,6 +3,28 @@
   <component name="LeetcodeEditor">
     <option name="projectConfig">
       <map>
+        <entry key="$PROJECT_DIR$/leetcode/editor/cn/[1051]高度检查器.js">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/leetcode/editor/cn/doc/content/[1051]高度检查器.md" />
+              <option name="frontendQuestionId" value="leetcode.cn1051" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/leetcode/editor/cn/[1051]高度检查器.js" />
+              <option name="titleSlug" value="height-checker" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/leetcode/editor/cn/[1331]数组序号转换.js">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/leetcode/editor/cn/doc/content/[1331]数组序号转换.md" />
+              <option name="frontendQuestionId" value="leetcode.cn1331" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/leetcode/editor/cn/[1331]数组序号转换.js" />
+              <option name="titleSlug" value="rank-transform-of-an-array" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/leetcode/editor/cn/[13]罗马数字转整数.js">
           <value>
             <LeetcodeEditor>
@@ -88,6 +110,39 @@
               <option name="host" value="leetcode.cn" />
               <option name="path" value="$PROJECT_DIR$/leetcode/editor/cn/[645]错误的集合.js" />
               <option name="titleSlug" value="set-mismatch" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/leetcode/editor/cn/[703]数据流中的第 K 大元素.js">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/leetcode/editor/cn/doc/content/[703]数据流中的第 K 大元素.md" />
+              <option name="frontendQuestionId" value="leetcode.cn703" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/leetcode/editor/cn/[703]数据流中的第 K 大元素.js" />
+              <option name="titleSlug" value="kth-largest-element-in-a-stream" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/leetcode/editor/cn/[937]重新排列日志文件.js">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/leetcode/editor/cn/doc/content/[937]重新排列日志文件.md" />
+              <option name="frontendQuestionId" value="leetcode.cn937" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/leetcode/editor/cn/[937]重新排列日志文件.js" />
+              <option name="titleSlug" value="reorder-data-in-log-files" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/leetcode/editor/cn/[953]验证外星语词典.js">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/leetcode/editor/cn/doc/content/[953]验证外星语词典.md" />
+              <option name="frontendQuestionId" value="leetcode.cn953" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/leetcode/editor/cn/[953]验证外星语词典.js" />
+              <option name="titleSlug" value="verifying-an-alien-dictionary" />
             </LeetcodeEditor>
           </value>
         </entry>
